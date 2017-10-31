@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  IdentityScan
 //
 //  Created by MCEJ on 2017/10/31.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface OneViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UIView *scanView;
 
 @end
-

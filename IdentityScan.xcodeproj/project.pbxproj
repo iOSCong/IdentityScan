@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		D83AF0B01FA8499000D00EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF0AF1FA8499000D00EC2 /* AppDelegate.m */; };
-		D83AF0B31FA8499000D00EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF0B21FA8499000D00EC2 /* ViewController.m */; };
 		D83AF0B61FA8499000D00EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83AF0B41FA8499000D00EC2 /* Main.storyboard */; };
 		D83AF0B81FA8499000D00EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83AF0B71FA8499000D00EC2 /* Assets.xcassets */; };
 		D83AF0BB1FA8499000D00EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83AF0B91FA8499000D00EC2 /* LaunchScreen.storyboard */; };
 		D83AF0BE1FA8499000D00EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF0BD1FA8499000D00EC2 /* main.m */; };
 		D83AF0C81FA8499000D00EC2 /* IdentityScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF0C71FA8499000D00EC2 /* IdentityScanTests.m */; };
 		D83AF0D31FA8499000D00EC2 /* IdentityScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF0D21FA8499000D00EC2 /* IdentityScanUITests.m */; };
+		D83AF1161FA84BC300D00EC2 /* LHSIDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1041FA84BC300D00EC2 /* LHSIDCardScaningView.m */; };
+		D83AF1171FA84BC300D00EC2 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1071FA84BC300D00EC2 /* UIAlertController+Extend.m */; };
+		D83AF1181FA84BC300D00EC2 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1091FA84BC300D00EC2 /* UIImage+Extend.m */; };
+		D83AF1191FA84BC300D00EC2 /* IDInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF10C1FA84BC300D00EC2 /* IDInfo.m */; };
+		D83AF11A1FA84BC300D00EC2 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF10F1FA84BC300D00EC2 /* RectManager.m */; };
+		D83AF11B1FA84BC300D00EC2 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = D83AF1131FA84BC300D00EC2 /* zocr0.lib */; };
+		D83AF11C1FA84BC300D00EC2 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D83AF1151FA84BC300D00EC2 /* libexidcardios.a */; };
+		D83AF1251FA84BDD00D00EC2 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1231FA84BDD00D00EC2 /* TwoViewController.m */; };
+		D83AF1261FA84BDD00D00EC2 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83AF1241FA84BDD00D00EC2 /* TwoViewController.xib */; };
+		D83AF12A1FA8511100D00EC2 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83AF1281FA8511100D00EC2 /* OneViewController.m */; };
+		D83AF12B1FA8511100D00EC2 /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83AF1291FA8511100D00EC2 /* OneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +48,6 @@
 		D83AF0AB1FA8499000D00EC2 /* IdentityScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdentityScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83AF0AE1FA8499000D00EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D83AF0AF1FA8499000D00EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D83AF0B11FA8499000D00EC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D83AF0B21FA8499000D00EC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D83AF0B51FA8499000D00EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D83AF0B71FA8499000D00EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83AF0BA1FA8499000D00EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,26 @@
 		D83AF0CE1FA8499000D00EC2 /* IdentityScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdentityScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83AF0D21FA8499000D00EC2 /* IdentityScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdentityScanUITests.m; sourceTree = "<group>"; };
 		D83AF0D41FA8499000D00EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83AF1031FA84BC300D00EC2 /* LHSIDCardScaningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSIDCardScaningView.h; sourceTree = "<group>"; };
+		D83AF1041FA84BC300D00EC2 /* LHSIDCardScaningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHSIDCardScaningView.m; sourceTree = "<group>"; };
+		D83AF1061FA84BC300D00EC2 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		D83AF1071FA84BC300D00EC2 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		D83AF1081FA84BC300D00EC2 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		D83AF1091FA84BC300D00EC2 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		D83AF10B1FA84BC300D00EC2 /* IDInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDInfo.h; sourceTree = "<group>"; };
+		D83AF10C1FA84BC300D00EC2 /* IDInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDInfo.m; sourceTree = "<group>"; };
+		D83AF10E1FA84BC300D00EC2 /* RectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		D83AF10F1FA84BC300D00EC2 /* RectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		D83AF1111FA84BC300D00EC2 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		D83AF1131FA84BC300D00EC2 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		D83AF1141FA84BC300D00EC2 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		D83AF1151FA84BC300D00EC2 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		D83AF1221FA84BDD00D00EC2 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D83AF1231FA84BDD00D00EC2 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		D83AF1241FA84BDD00D00EC2 /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		D83AF1271FA8511100D00EC2 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		D83AF1281FA8511100D00EC2 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		D83AF1291FA8511100D00EC2 /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83AF11C1FA84BC300D00EC2 /* libexidcardios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +130,15 @@
 		D83AF0AD1FA8499000D00EC2 /* IdentityScan */ = {
 			isa = PBXGroup;
 			children = (
+				D83AF0E01FA849EF00D00EC2 /* IdentityScanFile */,
 				D83AF0AE1FA8499000D00EC2 /* AppDelegate.h */,
 				D83AF0AF1FA8499000D00EC2 /* AppDelegate.m */,
-				D83AF0B11FA8499000D00EC2 /* ViewController.h */,
-				D83AF0B21FA8499000D00EC2 /* ViewController.m */,
+				D83AF1271FA8511100D00EC2 /* OneViewController.h */,
+				D83AF1281FA8511100D00EC2 /* OneViewController.m */,
+				D83AF1291FA8511100D00EC2 /* OneViewController.xib */,
+				D83AF1221FA84BDD00D00EC2 /* TwoViewController.h */,
+				D83AF1231FA84BDD00D00EC2 /* TwoViewController.m */,
+				D83AF1241FA84BDD00D00EC2 /* TwoViewController.xib */,
 				D83AF0B41FA8499000D00EC2 /* Main.storyboard */,
 				D83AF0B71FA8499000D00EC2 /* Assets.xcassets */,
 				D83AF0B91FA8499000D00EC2 /* LaunchScreen.storyboard */,
@@ -130,6 +164,75 @@
 				D83AF0D41FA8499000D00EC2 /* Info.plist */,
 			);
 			path = IdentityScanUITests;
+			sourceTree = "<group>";
+		};
+		D83AF0E01FA849EF00D00EC2 /* IdentityScanFile */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1021FA84BC300D00EC2 /* 扫描View */,
+				D83AF1051FA84BC300D00EC2 /* Category */,
+				D83AF1101FA84BC300D00EC2 /* libexidcard */,
+				D83AF10A1FA84BC300D00EC2 /* Model */,
+				D83AF10D1FA84BC300D00EC2 /* Tool */,
+			);
+			path = IdentityScanFile;
+			sourceTree = "<group>";
+		};
+		D83AF1021FA84BC300D00EC2 /* 扫描View */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1031FA84BC300D00EC2 /* LHSIDCardScaningView.h */,
+				D83AF1041FA84BC300D00EC2 /* LHSIDCardScaningView.m */,
+			);
+			path = "扫描View";
+			sourceTree = "<group>";
+		};
+		D83AF1051FA84BC300D00EC2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1061FA84BC300D00EC2 /* UIAlertController+Extend.h */,
+				D83AF1071FA84BC300D00EC2 /* UIAlertController+Extend.m */,
+				D83AF1081FA84BC300D00EC2 /* UIImage+Extend.h */,
+				D83AF1091FA84BC300D00EC2 /* UIImage+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D83AF10A1FA84BC300D00EC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF10B1FA84BC300D00EC2 /* IDInfo.h */,
+				D83AF10C1FA84BC300D00EC2 /* IDInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D83AF10D1FA84BC300D00EC2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF10E1FA84BC300D00EC2 /* RectManager.h */,
+				D83AF10F1FA84BC300D00EC2 /* RectManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D83AF1101FA84BC300D00EC2 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1111FA84BC300D00EC2 /* commondef.h */,
+				D83AF1121FA84BC300D00EC2 /* dicts */,
+				D83AF1141FA84BC300D00EC2 /* excards.h */,
+				D83AF1151FA84BC300D00EC2 /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		D83AF1121FA84BC300D00EC2 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				D83AF1131FA84BC300D00EC2 /* zocr0.lib */,
+			);
+			path = dicts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +302,7 @@
 				TargetAttributes = {
 					D83AF0AA1FA8499000D00EC2 = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					D83AF0C21FA8499000D00EC2 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -238,9 +341,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83AF11B1FA84BC300D00EC2 /* zocr0.lib in Resources */,
 				D83AF0BB1FA8499000D00EC2 /* LaunchScreen.storyboard in Resources */,
 				D83AF0B81FA8499000D00EC2 /* Assets.xcassets in Resources */,
+				D83AF1261FA84BDD00D00EC2 /* TwoViewController.xib in Resources */,
 				D83AF0B61FA8499000D00EC2 /* Main.storyboard in Resources */,
+				D83AF12B1FA8511100D00EC2 /* OneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +371,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83AF0B31FA8499000D00EC2 /* ViewController.m in Sources */,
+				D83AF11A1FA84BC300D00EC2 /* RectManager.m in Sources */,
+				D83AF1191FA84BC300D00EC2 /* IDInfo.m in Sources */,
+				D83AF1251FA84BDD00D00EC2 /* TwoViewController.m in Sources */,
+				D83AF12A1FA8511100D00EC2 /* OneViewController.m in Sources */,
+				D83AF1161FA84BC300D00EC2 /* LHSIDCardScaningView.m in Sources */,
 				D83AF0BE1FA8499000D00EC2 /* main.m in Sources */,
 				D83AF0B01FA8499000D00EC2 /* AppDelegate.m in Sources */,
+				D83AF1171FA84BC300D00EC2 /* UIAlertController+Extend.m in Sources */,
+				D83AF1181FA84BC300D00EC2 /* UIImage+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +542,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang xianlin (FM527FT4JK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wang xianlin (FM527FT4JK)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IdentityScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mcej.IdentityScan;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IdentityScan/身份证扫描/libexidcard",
+					"$(PROJECT_DIR)/IdentityScan/IdentityScanFile/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjtlcb.TLBANK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a69e83fb-c5cc-4853-a3d6-fc1046211d3c";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +567,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: wang xianlin (FM527FT4JK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wang xianlin (FM527FT4JK)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = IdentityScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mcej.IdentityScan;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IdentityScan/身份证扫描/libexidcard",
+					"$(PROJECT_DIR)/IdentityScan/IdentityScanFile/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjtlcb.TLBANK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a69e83fb-c5cc-4853-a3d6-fc1046211d3c";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
